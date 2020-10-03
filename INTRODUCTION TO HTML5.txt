@@ -1,0 +1,152 @@
+INTRODUCCION HTML
+	html: lenguaje de marcado de hipertexto.
+
+	Etiquetas = tags: indican q parte de un archivo es el encabeado, una imagen, un enlace, etc.
+
+	Historia
+	1990-1994 html fue simple, contenido primario
+	1993 MOSAIC entra con imagenes
+	1995-1999 intercompatibilidad de muchos navegadores y las paginas web
+	2000-2005 buscandores toman la decision de separar contenido del estilo
+	2005 comienza la estandarizacion para el contenido y para los estilos
+
+Ciclo solicitud - respuesta
+
+	URL tiene tres partes:
+		-protocolo http,https,ftp
+		-dominio. el servidor  epn.edu, google.com, wikipedia.org
+		-opcionalmente incluir el documento. /contact.html
+
+
+URL: Uniform Resource Locator
+w3c: World Wide Web Consortium
+CSS: Cascading Style Sheets
+
+DOM: document object Model -> consiste en usar las etiquetas de inicio y fin
+
+Arbol Html tiene 3 partes -> doctype (version del html), head, body
+
+Tipos de tags
+	1. inicio y fin -> <></>
+	2. self-closing </>
+block -> headings <h1>,<h2> estas tags tienen sintaxis y semantica
+paragraphs (block) -> <p></p>
+div (block) -> <div></div>
+
+
+Listas ordenadas
+
+		<ol>
+			<li></li>
+		</ol>
+
+
+Listas Desordenadas
+
+		<ul>
+			<li></li>
+		</ul>
+
+
+imagenes
+	<img src="" alt="">
+
+
+
+Atributos
+	class
+	id
+	Style
+	accesskey -> clave de acceso para la accesibilidad
+	tabindex ->
+
+
+Links
+
+ Ultimate HTML 5 Cheat Sheet -> https://www.wpkube.com/html5-cheat-sheet/
+
+
+
+<Head> -> es para metadatos
+<Header> -> es mas que una ayuda simple
+<nav> -> es una seccion de la pag que enlaza con otras pag.
+<footer> -> contiene copyright, redes sociales
+<figure> -> anniadir info como img, multimedia
+
+
+Elementos estructurales
+	-article, aside,main, menuitem,summary,section
+
+
+
+Cada pagina web tiene tres partes principales
+	Doctype -> indica q version de html usare
+	meta-data -> voy a usar este lenguaje
+	displayable content -> voy a mostrar contenido visualizable
+
+
+The address I use to validate my code is at https://validator.w3.org/.
+
+
+----------------------------------------------------------------------------------
+Tipos de Links
+	
+	*absolute <a href="https://www.google.com">google</a>
+	*relative-> referente algo interno <a href="page2.css"></a>
+	*internal -> 
+	*graphical
+	
+	
+	<a href="www.epn.edu.ec">
+		<img src="img/epn.png" alt="">
+	
+	</a>
+	
+		
+Targets
+	anclas pueden tomar un atributo target
+		* _self -default action
+		* _blank -abre una nueva ventana
+	
+	
+	
+	
+video
+	autoplay => reproduce automaticamente el video
+	controls => aparece en menu abajo del video para controlar el video
+	controls loop => video se repita una y otra vez
+	
+	<video src="Box.MOV" width = "400" controls>
+		video de 
+	</video>	
+
+audio
+	<audio src="https://musica/musica.mp3" controls>
+		musica de
+	</audio>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
